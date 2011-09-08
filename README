@@ -1,0 +1,4 @@
+Ubuntu 10.04 has a problem with keeping correct display settings after suspend/hibernate.
+This is a temporary walkaround.
+99_fix_resolution contains a path to fix_res.pl, have to change it manualy.
+Copy 99_fix_resolution into /etc/pm/sleep.d.
